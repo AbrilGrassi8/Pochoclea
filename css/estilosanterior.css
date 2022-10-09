@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  background-image: url(../multimedia/pochoclos.jpg)!important;
+  background:linear-gradient(to bottom,rgba(0, 0, 0, 0.9), rgba(100, 16, 16, 0.9), rgba(0, 0, 0, 1)), url(../multimedia/pochoclos.jpg)!important;
+  
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;   
+    background-image: url(../multimedia/pochoclos.jpg)!important;
+    background:linear-gradient(to top,rgba(143, 31, 31, 0.9), rgba(0, 0, 0, 0.9)), url(../multimedia/pochoclos.jpg)!important;
+    font-family: 'Permanent Marker', cursive;
+      }
+
+.encabezado_logo
+{   
+  display:flex;
+  height:150px;
+  width: 150px;
+}
+
+.encabezado_titulo{
+  display: flex;
+  font-size: 50px; 
+  text-shadow: 4px 4px 4px white;
+  align-self: center;
+  margin-right: 60px;
+  
+  }
+     
+.t-stroke {
+ color: transparent;
+ -moz-text-stroke-width: 2px;
+ -webkit-text-stroke-width: 2px;
+ -moz-text-stroke-color: #000000;
+ -webkit-text-stroke-color: #f0f0f0;
+ }
+     
+ .t-shadow {
+   text-shadow: 7px 7px #580606;
+  }
+
+
+.galeria {
+    width: 90%;
+    margin: auto;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../multimedia/pochoclos.jpg) ;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../multimedia/pochoclos.jpg)!important ;
+    padding: 0px;
+    margin: auto;
+  }
+
+.container-fluid{
+  margin: 0%;
+  padding: 0%;
+}
+ 
+.subt{
+  margin-bottom: 20px;
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 80%;
+  width: 90vh;
+  padding-top: 30px;
+  
+}
+
+
+.carousel-item{
+  height: 90vh;
+  object-fit: cover;
+  
+}
+
+.carousel-item img{
+  height: 90% ;
+  object-fit: cover;
+}
+  
+  .pie{
+    display:flex; 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background:linear-gradient(to top,rgba(100, 16, 16, 0.01), rgba(0, 0, 0, 0.01)), url(..multimedia/pochoclos.jpg)!important ;
+
+  }
+  li{
+    display: inline;
+    padding: 10px;
+    
+  }
+  .colorbordo{
+   background-color:rgba(51, 4, 4, 0.635);
+  
+  }
+  .pie2{
+    padding-top: 13px;
+  }
+ 
+
+  @media screen and (max-width: 768px){
+    .subt{
+      margin-bottom: 20px;
+    }
+  
+    .carousel{
+      align-items: center;
+      width: 50vh;
+      height:45vh;
+      padding-top: 0px;  
+    }
+    
+    .carousel-item{
+      height: 45vh;
+      width: 100%;
+      object-fit: cover;
+      transform: translate(0%, 3%);
+      
+    }
+    
+    .carousel-item img{
+       height: 80% ;
+       object-fit: cover;
+    }
+   
+   .navbar{ 
+    display: flex;
+    flex-wrap: auto;
+    align-content:end;
+   }
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px){
+    .subt{
+      margin-bottom: 0px;
+    }
+    .carousel{
+      align-items: center;
+      width: 65vh;
+      height:55vh; 
+      padding-top: 0px;  
+    }
+    
+    .carousel-item{
+      height: 100%;
+      object-fit: cover;
+      transform: translate(0%, 3%);
+      
+    }
+    
+    .carousel-item img{
+       height: 100%;
+       object-fit: cover;
+        
+    }
+   
+   .navbar{ 
+    display: flex;
+    flex-wrap: auto;
+    align-content:end;
+   }
+   .pie{
+    height: 120px;
+   }
+  }
+ 
