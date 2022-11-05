@@ -1,0 +1,148 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+.body-inicio {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.body-terror {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(143, 31, 31, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.body-drama {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(124, 113, 13, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.body-comedia {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(77, 16, 85, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.body-accion {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(18, 20, 131, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.card-terror {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(143, 31, 31, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.card-drama {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(124, 113, 13, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.card-comedia {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(77, 16, 85, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.card-accion {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(18, 20, 131, 0.9), black), url(../multimedia/pochoclos.jpg) !important; }
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to top, rgba(5, 5, 5, 0.9), rgba(0, 0, 0, 0.9)), url(../multimedia/pochoclos.jpg) !important;
+  font-family: 'Permanent Marker', cursive; }
+  .encabezado .encabezado_logo {
+    display: flex;
+    height: 150px;
+    width: 150px; }
+  .encabezado .encabezado_titulo {
+    display: flex;
+    font-size: 50px;
+    align-self: center;
+    margin-right: 60px;
+    justify-content: center; }
+
+.t-stroke {
+  color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #f1f6fa;
+  -webkit-text-stroke-color: #faffe0; }
+
+.t-shadow {
+  text-shadow: 7px 7px #4d0505; }
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url(../multimedia/pochoclos.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../multimedia/pochoclos.jpg) !important;
+  margin: auto; }
+  .container .subtitulo {
+    margin-bottom: 20px; }
+  .container .container-fluid {
+    margin: 0%;
+    padding: 0%; }
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 80%;
+  width: 90vh;
+  padding-top: 30px; }
+  .carousel .carousel-item {
+    height: 90vh;
+    object-fit: cover; }
+  .carousel .carousel-item img {
+    height: 90%;
+    object-fit: cover; }
+
+.pie {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background: linear-gradient(to top, rgba(100, 16, 16, 0.01), rgba(0, 0, 0, 0.01)), url(..multimedia/pochoclos.jpg) !important; }
+  .pie .pie_li {
+    display: inline;
+    padding: 10px; }
+    .pie .pie_li .pie_li_2 {
+      padding-top: 13px; }
+
+.colorbordo {
+  background-color: rgba(51, 4, 4, 0.635); }
+
+.card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+@media screen and (max-width: 768px) {
+  .container .subtitulo {
+    margin-bottom: 20px; }
+  .carousel {
+    align-items: center;
+    width: 50vh;
+    height: 45vh;
+    padding-top: 0px; }
+    .carousel .carousel-item {
+      height: 45vh;
+      width: 100%;
+      object-fit: cover;
+      transform: translate(0%, 3%); }
+    .carousel .carousel-item img {
+      height: 80%;
+      object-fit: cover; }
+  .navbar {
+    display: flex;
+    flex-wrap: auto;
+    align-content: end; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container .subtitulo {
+    margin-bottom: 0px; }
+  .carousel {
+    align-items: center;
+    width: 65vh;
+    height: 55vh;
+    padding-top: 0px; }
+    .carousel .carousel-item {
+      height: 100%;
+      object-fit: cover;
+      transform: translate(0%, 3%); }
+    .carousel .carousel-item img {
+      height: 100%;
+      object-fit: cover; }
+  .navbar {
+    display: flex;
+    flex-wrap: auto;
+    align-content: end; }
+  .pie {
+    height: 120px; } }
